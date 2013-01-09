@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2896CF1C168AA0A3000FBF6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF1B168AA0A3000FBF6A /* UIKit.framework */; };
+		2896CF1E168AA0A3000FBF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF1D168AA0A3000FBF6A /* Foundation.framework */; };
+		2896CF20168AA0A3000FBF6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF1F168AA0A3000FBF6A /* CoreGraphics.framework */; };
+		2896CF26168AA0A3000FBF6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2896CF24168AA0A3000FBF6A /* InfoPlist.strings */; };
+		2896CF28168AA0A3000FBF6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896CF27168AA0A3000FBF6A /* main.m */; };
+		2896CF2C168AA0A3000FBF6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896CF2B168AA0A3000FBF6A /* AppDelegate.m */; };
+		2896CF2E168AA0A3000FBF6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2896CF2D168AA0A3000FBF6A /* Default.png */; };
+		2896CF30168AA0A3000FBF6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2896CF2F168AA0A3000FBF6A /* Default@2x.png */; };
+		2896CF32168AA0A4000FBF6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2896CF31168AA0A3000FBF6A /* Default-568h@2x.png */; };
+		2896CF35168AA0A4000FBF6A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2896CF33168AA0A4000FBF6A /* MainStoryboard_iPhone.storyboard */; };
+		2896CF3B168AA0A4000FBF6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896CF3A168AA0A4000FBF6A /* ViewController.m */; };
+		2896CF6A168AA3C1000FBF6A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF68168AA3C1000FBF6A /* libz.dylib */; };
+		2896CF6B168AA3C1000FBF6A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF69168AA3C1000FBF6A /* SystemConfiguration.framework */; };
+		2896CF9D168AACC9000FBF6A /* libTOPIOSSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF80168AACC9000FBF6A /* libTOPIOSSdk.a */; };
+		2896CF9E168AACC9000FBF6A /* libTOPIOSSdk.s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896CF81168AACC9000FBF6A /* libTOPIOSSdk.s.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2896CF17168AA0A3000FBF6A /* TopDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2896CF1B168AA0A3000FBF6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2896CF1D168AA0A3000FBF6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2896CF1F168AA0A3000FBF6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2896CF23168AA0A3000FBF6A /* TopDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopDemoApp-Info.plist"; sourceTree = "<group>"; };
+		2896CF25168AA0A3000FBF6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2896CF27168AA0A3000FBF6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2896CF29168AA0A3000FBF6A /* TopDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		2896CF2A168AA0A3000FBF6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2896CF2B168AA0A3000FBF6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2896CF2D168AA0A3000FBF6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2896CF2F168AA0A3000FBF6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2896CF31168AA0A3000FBF6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2896CF34168AA0A4000FBF6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2896CF39168AA0A4000FBF6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2896CF3A168AA0A4000FBF6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2896CF68168AA3C1000FBF6A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2896CF69168AA3C1000FBF6A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2896CF79168AACC9000FBF6A /* JDY_ItemManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_ItemManagement.h; sourceTree = "<group>"; };
+		2896CF7A168AACC9000FBF6A /* JDY_MsgCenterManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_MsgCenterManagement.h; sourceTree = "<group>"; };
+		2896CF7B168AACC9000FBF6A /* JDY_PlugInEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_PlugInEntry.h; sourceTree = "<group>"; };
+		2896CF7C168AACC9000FBF6A /* JDY_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_Protocol.h; sourceTree = "<group>"; };
+		2896CF7D168AACC9000FBF6A /* JDY_ProtocolConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_ProtocolConstants.h; sourceTree = "<group>"; };
+		2896CF7E168AACC9000FBF6A /* JDY_TradeManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_TradeManagement.h; sourceTree = "<group>"; };
+		2896CF7F168AACC9000FBF6A /* JDY_WangWangCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDY_WangWangCommunication.h; sourceTree = "<group>"; };
+		2896CF80168AACC9000FBF6A /* libTOPIOSSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTOPIOSSdk.a; sourceTree = "<group>"; };
+		2896CF81168AACC9000FBF6A /* libTOPIOSSdk.s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTOPIOSSdk.s.a; sourceTree = "<group>"; };
+		2896CF82168AACC9000FBF6A /* TopApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopApiResponse.h; sourceTree = "<group>"; };
+		2896CF84168AACC9000FBF6A /* TopAppConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAppConnector.h; sourceTree = "<group>"; };
+		2896CF85168AACC9000FBF6A /* TopAppEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAppEntity.h; sourceTree = "<group>"; };
+		2896CF86168AACC9000FBF6A /* TopAppEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAppEvent.h; sourceTree = "<group>"; };
+		2896CF87168AACC9000FBF6A /* TopAppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAppService.h; sourceTree = "<group>"; };
+		2896CF88168AACC9000FBF6A /* TopAppSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAppSession.h; sourceTree = "<group>"; };
+		2896CF89168AACC9000FBF6A /* TopAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAttachment.h; sourceTree = "<group>"; };
+		2896CF8A168AACC9000FBF6A /* TopAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAuth.h; sourceTree = "<group>"; };
+		2896CF8B168AACC9000FBF6A /* TopAuthCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAuthCallback.h; sourceTree = "<group>"; };
+		2896CF8C168AACC9000FBF6A /* TopBridgeWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBridgeWebview.h; sourceTree = "<group>"; };
+		2896CF8D168AACC9000FBF6A /* TopConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopConstants.h; sourceTree = "<group>"; };
+		2896CF8E168AACC9000FBF6A /* TopCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCrashHandler.h; sourceTree = "<group>"; };
+		2896CF8F168AACC9000FBF6A /* TopEventCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopEventCallback.h; sourceTree = "<group>"; };
+		2896CF90168AACC9000FBF6A /* TopIOSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopIOSClient.h; sourceTree = "<group>"; };
+		2896CF91168AACC9000FBF6A /* TopIOSSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopIOSSdk.h; sourceTree = "<group>"; };
+		2896CF92168AACC9000FBF6A /* TopIOSSdkExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopIOSSdkExt.h; sourceTree = "<group>"; };
+		2896CF93168AACC9000FBF6A /* TopIOSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopIOSUtil.h; sourceTree = "<group>"; };
+		2896CF94168AACC9000FBF6A /* TopPluginServiceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPluginServiceType.h; sourceTree = "<group>"; };
+		2896CF95168AACC9000FBF6A /* TopSDKBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSDKBundle.h; sourceTree = "<group>"; };
+		2896CF96168AACC9000FBF6A /* TopSellerPlatformModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSellerPlatformModule.h; sourceTree = "<group>"; };
+		2896CF97168AACC9000FBF6A /* TopServiceError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopServiceError.h; sourceTree = "<group>"; };
+		2896CF98168AACC9000FBF6A /* TopSimpleCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSimpleCache.h; sourceTree = "<group>"; };
+		2896CF9A168AACC9000FBF6A /* TopToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopToolBar.h; sourceTree = "<group>"; };
+		2896CF9B168AACC9000FBF6A /* TopTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTracker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2896CF14168AA0A3000FBF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2896CF6A168AA3C1000FBF6A /* libz.dylib in Frameworks */,
+				2896CF6B168AA3C1000FBF6A /* SystemConfiguration.framework in Frameworks */,
+				2896CF1C168AA0A3000FBF6A /* UIKit.framework in Frameworks */,
+				2896CF1E168AA0A3000FBF6A /* Foundation.framework in Frameworks */,
+				2896CF20168AA0A3000FBF6A /* CoreGraphics.framework in Frameworks */,
+				2896CF9D168AACC9000FBF6A /* libTOPIOSSdk.a in Frameworks */,
+				2896CF9E168AACC9000FBF6A /* libTOPIOSSdk.s.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2896CF0C168AA0A3000FBF6A = {
+			isa = PBXGroup;
+			children = (
+				2896CF78168AACC9000FBF6A /* topsdk */,
+				2896CF68168AA3C1000FBF6A /* libz.dylib */,
+				2896CF69168AA3C1000FBF6A /* SystemConfiguration.framework */,
+				2896CF21168AA0A3000FBF6A /* TopDemoApp */,
+				2896CF1A168AA0A3000FBF6A /* Frameworks */,
+				2896CF18168AA0A3000FBF6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2896CF18168AA0A3000FBF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2896CF17168AA0A3000FBF6A /* TopDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2896CF1A168AA0A3000FBF6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2896CF1B168AA0A3000FBF6A /* UIKit.framework */,
+				2896CF1D168AA0A3000FBF6A /* Foundation.framework */,
+				2896CF1F168AA0A3000FBF6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2896CF21168AA0A3000FBF6A /* TopDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				2896CF2A168AA0A3000FBF6A /* AppDelegate.h */,
+				2896CF2B168AA0A3000FBF6A /* AppDelegate.m */,
+				2896CF33168AA0A4000FBF6A /* MainStoryboard_iPhone.storyboard */,
+				2896CF39168AA0A4000FBF6A /* ViewController.h */,
+				2896CF3A168AA0A4000FBF6A /* ViewController.m */,
+				2896CF22168AA0A3000FBF6A /* Supporting Files */,
+			);
+			path = TopDemoApp;
+			sourceTree = "<group>";
+		};
+		2896CF22168AA0A3000FBF6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2896CF23168AA0A3000FBF6A /* TopDemoApp-Info.plist */,
+				2896CF24168AA0A3000FBF6A /* InfoPlist.strings */,
+				2896CF27168AA0A3000FBF6A /* main.m */,
+				2896CF29168AA0A3000FBF6A /* TopDemoApp-Prefix.pch */,
+				2896CF2D168AA0A3000FBF6A /* Default.png */,
+				2896CF2F168AA0A3000FBF6A /* Default@2x.png */,
+				2896CF31168AA0A3000FBF6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2896CF78168AACC9000FBF6A /* topsdk */ = {
+			isa = PBXGroup;
+			children = (
+				2896CF79168AACC9000FBF6A /* JDY_ItemManagement.h */,
+				2896CF7A168AACC9000FBF6A /* JDY_MsgCenterManagement.h */,
+				2896CF7B168AACC9000FBF6A /* JDY_PlugInEntry.h */,
+				2896CF7C168AACC9000FBF6A /* JDY_Protocol.h */,
+				2896CF7D168AACC9000FBF6A /* JDY_ProtocolConstants.h */,
+				2896CF7E168AACC9000FBF6A /* JDY_TradeManagement.h */,
+				2896CF7F168AACC9000FBF6A /* JDY_WangWangCommunication.h */,
+				2896CF80168AACC9000FBF6A /* libTOPIOSSdk.a */,
+				2896CF81168AACC9000FBF6A /* libTOPIOSSdk.s.a */,
+				2896CF82168AACC9000FBF6A /* TopApiResponse.h */,
+				2896CF84168AACC9000FBF6A /* TopAppConnector.h */,
+				2896CF85168AACC9000FBF6A /* TopAppEntity.h */,
+				2896CF86168AACC9000FBF6A /* TopAppEvent.h */,
+				2896CF87168AACC9000FBF6A /* TopAppService.h */,
+				2896CF88168AACC9000FBF6A /* TopAppSession.h */,
+				2896CF89168AACC9000FBF6A /* TopAttachment.h */,
+				2896CF8A168AACC9000FBF6A /* TopAuth.h */,
+				2896CF8B168AACC9000FBF6A /* TopAuthCallback.h */,
+				2896CF8C168AACC9000FBF6A /* TopBridgeWebview.h */,
+				2896CF8D168AACC9000FBF6A /* TopConstants.h */,
+				2896CF8E168AACC9000FBF6A /* TopCrashHandler.h */,
+				2896CF8F168AACC9000FBF6A /* TopEventCallback.h */,
+				2896CF90168AACC9000FBF6A /* TopIOSClient.h */,
+				2896CF91168AACC9000FBF6A /* TopIOSSdk.h */,
+				2896CF92168AACC9000FBF6A /* TopIOSSdkExt.h */,
+				2896CF93168AACC9000FBF6A /* TopIOSUtil.h */,
+				2896CF94168AACC9000FBF6A /* TopPluginServiceType.h */,
+				2896CF95168AACC9000FBF6A /* TopSDKBundle.h */,
+				2896CF96168AACC9000FBF6A /* TopSellerPlatformModule.h */,
+				2896CF97168AACC9000FBF6A /* TopServiceError.h */,
+				2896CF98168AACC9000FBF6A /* TopSimpleCache.h */,
+				2896CF9A168AACC9000FBF6A /* TopToolBar.h */,
+				2896CF9B168AACC9000FBF6A /* TopTracker.h */,
+			);
+			path = topsdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2896CF16168AA0A3000FBF6A /* TopDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2896CF3E168AA0A4000FBF6A /* Build configuration list for PBXNativeTarget "TopDemoApp" */;
+			buildPhases = (
+				2896CF13168AA0A3000FBF6A /* Sources */,
+				2896CF14168AA0A3000FBF6A /* Frameworks */,
+				2896CF15168AA0A3000FBF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopDemoApp;
+			productName = TopDemoApp;
+			productReference = 2896CF17168AA0A3000FBF6A /* TopDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2896CF0E168AA0A3000FBF6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = fangweng;
+			};
+			buildConfigurationList = 2896CF11168AA0A3000FBF6A /* Build configuration list for PBXProject "TopDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2896CF0C168AA0A3000FBF6A;
+			productRefGroup = 2896CF18168AA0A3000FBF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2896CF16168AA0A3000FBF6A /* TopDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2896CF15168AA0A3000FBF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2896CF26168AA0A3000FBF6A /* InfoPlist.strings in Resources */,
+				2896CF2E168AA0A3000FBF6A /* Default.png in Resources */,
+				2896CF30168AA0A3000FBF6A /* Default@2x.png in Resources */,
+				2896CF32168AA0A4000FBF6A /* Default-568h@2x.png in Resources */,
+				2896CF35168AA0A4000FBF6A /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2896CF13168AA0A3000FBF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2896CF28168AA0A3000FBF6A /* main.m in Sources */,
+				2896CF2C168AA0A3000FBF6A /* AppDelegate.m in Sources */,
+				2896CF3B168AA0A4000FBF6A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2896CF24168AA0A3000FBF6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2896CF25168AA0A3000FBF6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2896CF33168AA0A4000FBF6A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2896CF34168AA0A4000FBF6A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2896CF3C168AA0A4000FBF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2896CF3D168AA0A4000FBF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2896CF3F168AA0A4000FBF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopDemoApp/TopDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "TopDemoApp/TopDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/topsdk\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2896CF40168AA0A4000FBF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopDemoApp/TopDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "TopDemoApp/TopDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/topsdk\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2896CF11168AA0A3000FBF6A /* Build configuration list for PBXProject "TopDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2896CF3C168AA0A4000FBF6A /* Debug */,
+				2896CF3D168AA0A4000FBF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2896CF3E168AA0A4000FBF6A /* Build configuration list for PBXNativeTarget "TopDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2896CF3F168AA0A4000FBF6A /* Debug */,
+				2896CF40168AA0A4000FBF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2896CF0E168AA0A3000FBF6A /* Project object */;
+}
